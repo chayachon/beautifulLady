@@ -1,0 +1,112 @@
+.clearfix {
+  margin: 0;
+  padding: 0; }
+
+.head {
+  padding: 10px;
+  background: #737ca1;
+  color: #ffffff; }
+
+/*---------------------------- side-menu  ----------------------------*/
+.side-menu {
+  background: #faafbe;
+  width: 100%;
+  margin: 0; }
+  .side-menu h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    padding: 10px;
+    border-bottom: 1px solid #e38aae;
+    margin: 0; }
+  .side-menu ul {
+    margin-left: 0;
+    list-style-type: none; }
+    .side-menu ul li {
+      padding: 10px;
+      border-bottom: 1px solid #e38aae; }
+      .side-menu ul li a {
+        color: #444444;
+        display: block; }
+    .side-menu ul li:hover {
+      background: #E56E94; }
+      .side-menu ul li:hover a {
+        color: #ffffff; }
+
+/*---------------------------- side-view  ----------------------------*/
+.head-view {
+  background: #c8a2c8;
+  padding: 10px;
+  color: #4e387e; }
+
+/*---------------------------- sub-menu  ----------------------------*/
+.sub-menu {
+  overflow: scroll;
+  border-bottom: 1px solid #ccc;
+  /*----------------------------- sub menu link ----------------------------*/ }
+  .sub-menu ul {
+    margin: 0;
+    padding: 0; }
+    .sub-menu ul li {
+      border-left: 1px solid #ccc;
+      display: block;
+      float: left;
+      height: 80px;
+      list-style: none outside none;
+      margin: 0;
+      width: 90px; }
+      .sub-menu ul li h5 {
+        text-align: center;
+        font-weight: bold;
+        color: #837e7c;
+        margin: 0; }
+        .sub-menu ul li h5 a {
+          display: block;
+          padding: 40px 0px 0px 0px;
+          border: 0; }
+    .sub-menu ul .last {
+      border-right: 1px solid #ccc; }
+  .sub-menu a {
+    color: #837e7c;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 25px;
+    margin: 0;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444; }
+  .sub-menu .all {
+    background-image: url("../../web-src/admin/Images/grid-gray.jpg");
+    background-position: 50% 28%;
+    background-repeat: no-repeat;
+    display: inline-block; }
+  .sub-menu .all:hover {
+    background-image: url("../../web-src/admin/Images/grid-pink.jpg"); }
+    .sub-menu .all:hover h5 a {
+      color: #ff5f7b; }
+  .sub-menu .add {
+    background-image: url("../../web-src/admin/Images/add-gray.jpg");
+    background-position: 50% 28%;
+    background-repeat: no-repeat;
+    display: inline-block; }
+  .sub-menu .add:hover {
+    background-image: url("../../web-src/admin/Images/add-pink.jpg"); }
+    .sub-menu .add:hover h5 a {
+      color: #ff5f7b; }
+  .sub-menu .edit {
+    background-image: url("../../web-src/admin/Images/edit-gray.jpg");
+    background-position: 50% 28%;
+    background-repeat: no-repeat;
+    display: inline-block; }
+  .sub-menu .edit:hover {
+    background-image: url("../../web-src/admin/Images/edit-pink.jpg"); }
+    .sub-menu .edit:hover h5 a {
+      color: #ff5f7b; }
+  .sub-menu .delete {
+    background-image: url("../../web-src/admin/Images/del-gray.jpg");
+    background-position: 50% 28%;
+    background-repeat: no-repeat;
+    display: inline-block; }
+  .sub-menu .delete:hover {
+    background-image: url("../../web-src/admin/Images/del-pink.jpg"); }
+    .sub-menu .delete:hover h5 a {
+      color: #ff5f7b; }

@@ -1,0 +1,78 @@
+#menu {
+  position:absolute;
+  height: 200px;
+  list-style-type:none;
+}
+#menu span {
+  display: none;
+  position: absolute;
+}
+#menu a {
+  display: block;
+  text-indent: -900%;
+  position: absolute;
+  outline: none;
+  text-decoration:none;
+}
+#menu a:hover {
+  background-position: left bottom;
+}
+#menu a:hover span{
+  display: block;
+}
+#menu .home {
+  width: 65px;
+  height: 31px;
+  background: url(../../images/main_menu/home.png) no-repeat;
+  left: 0px;
+  top: 0px;
+}
+#menu .home span {
+  width: 60px;
+  height: 14px;
+  background: url(../../images/main_menu/home-over.png) no-repeat;
+  left: 1px;
+  top: -25px; //yt65
+}
+#menu .product {
+  width: 65px;
+  height: 38px;
+  background: url(../../images/main_menu/product.png) no-repeat;
+  left: 77px;
+  top: -8px;
+}
+#menu .product span {
+  width: 60px;
+  height: 31px;
+  background: url(../../images/main_menu/product-over.png) no-repeat;
+  left: 12px;
+  top: -20px;
+}
+#menu .howtoorder {
+  width: 112px;
+  height: 40px;
+  background: url(../../images/main_menu/HowToOrder.png) no-repeat;
+  left: 154px;
+  top: -8px;
+}
+#menu .howtoorder span {
+  width: 92px;
+  height: 25px;
+  background: url(../../images/main_menu/HowToOrder-over.png) no-repeat;
+  left: 8px;
+  top: -20px;
+}
+#menu .contact {
+  width: 112px;
+  height: 40px;
+  background: url(../../images/main_menu/contact.png) no-repeat;
+  left: 262px;
+  top: -8px;
+}
+#menu .contact span {
+  width: 92px;
+  height: 20px;
+  background: url(../../images/main_menu/contact-over.png) no-repeat;
+  left: 8px;
+  top: -16px;
+}

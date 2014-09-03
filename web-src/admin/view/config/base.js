@@ -1,0 +1,5 @@
+var BL = {};
+
+BL.manage = {
+    
+};

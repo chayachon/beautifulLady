@@ -1,0 +1,46 @@
+.gab {
+  height: 40px;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.order {
+  margin-top: 10px;
+  .promotion {
+    font-size: 14px;
+    color: #F52887;
+  }
+  form {
+    padding: 4px 0px;
+
+    .list {
+      margin-left: 0px;
+      display: -webkit-flex; /* Safari */
+      display: flex;
+
+      input {
+        margin: 0;
+        margin-right: 10px;
+      }
+      .text {
+        width: 50px;
+      }
+    }
+  }
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.orderButton {
+  margin-top: 0px;
+}
